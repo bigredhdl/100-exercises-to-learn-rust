@@ -43,7 +43,7 @@ mod tests {
     }
 
     #[test]
-    fn thirtieth() {
+    fn thirthieth() {
         assert_eq!(fibonacci(30), 832040);
     }
 }

@@ -34,3 +34,12 @@ mod tests {
         assert_eq!(factorial(5), 120);
     }
 }
+
+fn factorial(n:u32) -> u32 {
+    if n == 0 || n ==1 {
+        return 1;
+    }
+    else {
+        return factorial(n-1)*n;
+    }
+}
